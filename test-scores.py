@@ -1,19 +1,13 @@
-# List of test scores
 test_scores = [78, 92.5, 84, 88.2, 90, 76, 85.6]
-
-# Display the list of test scores
 print("Test Scores:", test_scores)
 
-# Calculate and display the average test score
 avg_test_score = sum(test_scores) / len(test_scores)
 print("Average Score: {:.2f}".format(avg_test_score))
 
-# Find and display the highest and lowest scores
 highest_score = max(test_scores)
 lowest_score = min(test_scores)
 print("Highest Score:", highest_score)
 print("Lowest Score:", lowest_score)
 
-# Sort and display the test scores in descending order
 sorted_scores_desc = sorted(test_scores, reverse=True)
 print("Sorted Scores (Descending):", sorted_scores_desc)
